@@ -1,0 +1,61 @@
+#mini-chat {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#chat {
+  width: 350px;
+  border: 2px solid black;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  border-bottom-right-radius: 8mm;
+  border-top-left-radius: 8mm;
+  overflow: hidden;
+}
+#chat header {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#chat header i {
+  color: white;
+  cursor: pointer;
+}
+#chat header .box-center {
+  text-align: center;
+}
+#chat main {
+  height: 280px;
+  overflow-y: scroll;
+  background-color: white;
+}
+#chat main .message {
+  padding: 15px;
+  margin: 20px 10px;
+  border-radius: 15px;
+  position: relative;
+  width: 51%;
+}
+#chat main .message .time {
+  font-size: 15px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  color: gray;
+}
+#chat main .message p {
+  color: white;
+}
+#chat main .message.support {
+  float: left;
+  background-color: black;
+}
+#chat main .message.user {
+  float: right;
+  background-color: gray;
+}/*# sourceMappingURL=style.css.map */
